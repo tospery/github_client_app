@@ -1,0 +1,19 @@
+{
+    "login":"octocat",
+    "@JsonKey(name: 'avatar_url') late String": "avatar",
+    "type":"User",
+    "name?":"monalisa octocat",
+    "company?":"GitHub",
+    "blog?":"https://github.com/blog",
+    "location?":"San Francisco",
+    "email?":"octocat@github.com",
+    "hireable?":false,
+    "bio?":"There once was...",
+    "@JsonKey(name: 'public_repos') late int": "publicRepos",
+    "followers":20,
+    "following":0,
+    "@JsonKey(name: 'created_at') late String": "createdAt",
+    "@JsonKey(name: 'updated_at') late String": "updatedAt",
+    "@JsonKey(name: 'total_private_repos') late int": "totalPrivateRepos",
+    "@JsonKey(name: 'owned_private_repos') late int": "ownedPrivateRepos"
+}

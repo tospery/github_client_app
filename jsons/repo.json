@@ -1,0 +1,27 @@
+{
+    "id":1296269,
+    "name":"Hello-World",
+    "@JsonKey(name: 'full_name') late String": "fullName",
+    "owner":"$user",
+    "parent?":"$repo",
+    "private":false,
+    "description":"This your first repo!",
+    "fork":false,
+    "language?":"JavaScript",
+    "@JsonKey(name: 'forks_count') late int": "forksCount",
+    "@JsonKey(name: 'stargazers_count') late int": "stargazersCount",
+    "size":108,
+    "@JsonKey(name: 'default_branch') late String": "defaultBranch",
+    "@JsonKey(name: 'open_issues_count') late int": "openIssuesCount",
+    "@JsonKey(name: 'pushed_at') late String": "pushedAt",
+    "@JsonKey(name: 'created_at') late String": "createdAt",
+    "@JsonKey(name: 'updated_at') late String": "updatedAt",
+    "@JsonKey(name: 'subscribers_count') int?": "subscribersCount",
+    "license?":{
+        "key":"mit",
+        "name":"MIT License",
+        "@JsonKey(name: 'spdx_id') late String": "spdxId",
+        "url":"https://api.github.com/licenses/mit",
+        "@JsonKey(name: 'node_id') late String": "nodeId"
+    }
+}

@@ -6,6 +6,7 @@ import 'global.dart';
 
 class NetCache extends Interceptor {
   // 为确保迭代器顺序和对象插入时间一致顺序一致，我们使用LinkedHashMap
+  // ignore: prefer_collection_literals
   var cache = LinkedHashMap<String, CacheObject>();
 
   @override

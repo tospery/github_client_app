@@ -1,5 +1,5 @@
 
-import 'index.dart';
+import '../models/index.dart';
 import 'profile_change_notifier.dart';
 
 class UserModel extends ProfileChangeNotifier {

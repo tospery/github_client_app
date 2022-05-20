@@ -1,8 +1,8 @@
 
 import 'package:flutter/foundation.dart';
 
+import '../models/index.dart';
 import 'global.dart';
-import 'index.dart';
 
 class ProfileChangeNotifier extends ChangeNotifier {
   Profile get profile => Global.profile;

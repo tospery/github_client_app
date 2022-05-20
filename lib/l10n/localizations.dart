@@ -26,4 +26,13 @@ class APPLocalizations {
       desc: 'Title for the Demo application',
     );
   }
+
+    String get noDescription {
+    return Intl.message(
+      'no Description',
+      name: 'noDescription',
+      desc: 'no Description for the Demo application',
+    );
+  }
+
 }
